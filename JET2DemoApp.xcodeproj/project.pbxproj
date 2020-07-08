@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0303D59624B398FF003BD075 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F5924B21E3D00055FC2 /* UsersViewModel.swift */; };
+		0303D59924B45A91003BD075 /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303D59724B45A91003BD075 /* ArticlesTableViewCell.swift */; };
+		0303D59A24B45A91003BD075 /* ArticlesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0303D59824B45A91003BD075 /* ArticlesTableViewCell.xib */; };
+		0303D59C24B47217003BD075 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303D59B24B47217003BD075 /* UserDetailViewController.swift */; };
+		0303D59E24B58E82003BD075 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303D59D24B58E82003BD075 /* Common+Extensions.swift */; };
+		03474F1624B1B59400055FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F1524B1B59400055FC2 /* AppDelegate.swift */; };
+		03474F1824B1B59400055FC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F1724B1B59400055FC2 /* SceneDelegate.swift */; };
+		03474F1A24B1B59400055FC2 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F1924B1B59400055FC2 /* ArticlesViewController.swift */; };
+		03474F1F24B1B59400055FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03474F1D24B1B59400055FC2 /* Main.storyboard */; };
+		03474F2224B1B59400055FC2 /* JET2DemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03474F2024B1B59400055FC2 /* JET2DemoApp.xcdatamodeld */; };
+		03474F2424B1B59700055FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03474F2324B1B59700055FC2 /* Assets.xcassets */; };
+		03474F2724B1B59700055FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03474F2524B1B59700055FC2 /* LaunchScreen.storyboard */; };
+		03474F3224B1B59700055FC2 /* JET2DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F3124B1B59700055FC2 /* JET2DemoAppTests.swift */; };
+		03474F3D24B1B59700055FC2 /* JET2DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F3C24B1B59700055FC2 /* JET2DemoAppUITests.swift */; };
+		03474F4B24B1B61800055FC2 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F4A24B1B61800055FC2 /* AppConstant.swift */; };
+		03474F5824B20E7D00055FC2 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F5724B20E7D00055FC2 /* UsersModel.swift */; };
+		03474F5C24B2F42D00055FC2 /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F5B24B2F42D00055FC2 /* ArticlesModel.swift */; };
+		03474F5F24B306FD00055FC2 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F5D24B304C600055FC2 /* ArticlesViewModel.swift */; };
+		038EFD6824B37F8100DCA15B /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F5524B1B9DD00055FC2 /* ServiceRouter.swift */; };
+		038EFD6C24B38B5500DCA15B /* UserDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038EFD6A24B38B5500DCA15B /* UserDetailTableViewCell.xib */; };
+		038EFD6D24B391E100DCA15B /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03474F1B24B1B59400055FC2 /* UserListViewController.swift */; };
+		038EFD6E24B391E500DCA15B /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038EFD6924B38B5500DCA15B /* UserDetailTableViewCell.swift */; };
+		20013C7067CD184C04C5253B /* Pods_JET2DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD9C2358087D42B7EC79D0F /* Pods_JET2DemoApp.framework */; };
+		6B1CE4628CF64ACB49697630 /* Pods_JET2DemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A180235B62FD2E52F68210C /* Pods_JET2DemoAppTests.framework */; };
+		7C86163D134F721DE4A3DA3D /* Pods_JET2DemoApp_JET2DemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68566F5D3A3965FCB0054006 /* Pods_JET2DemoApp_JET2DemoAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03474F2E24B1B59700055FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03474F0A24B1B59400055FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03474F1124B1B59400055FC2;
+			remoteInfo = JET2DemoApp;
+		};
+		03474F3924B1B59700055FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03474F0A24B1B59400055FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03474F1124B1B59400055FC2;
+			remoteInfo = JET2DemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0303D59724B45A91003BD075 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
+		0303D59824B45A91003BD075 /* ArticlesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesTableViewCell.xib; sourceTree = "<group>"; };
+		0303D59B24B47217003BD075 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		0303D59D24B58E82003BD075 /* Common+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		03474F1224B1B59400055FC2 /* JET2DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JET2DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03474F1524B1B59400055FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03474F1724B1B59400055FC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03474F1924B1B59400055FC2 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		03474F1B24B1B59400055FC2 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		03474F1E24B1B59400055FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03474F2124B1B59400055FC2 /* JET2DemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JET2DemoApp.xcdatamodel; sourceTree = "<group>"; };
+		03474F2324B1B59700055FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03474F2624B1B59700055FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03474F2824B1B59700055FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03474F2D24B1B59700055FC2 /* JET2DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JET2DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03474F3124B1B59700055FC2 /* JET2DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JET2DemoAppTests.swift; sourceTree = "<group>"; };
+		03474F3324B1B59700055FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03474F3824B1B59700055FC2 /* JET2DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JET2DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03474F3C24B1B59700055FC2 /* JET2DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JET2DemoAppUITests.swift; sourceTree = "<group>"; };
+		03474F3E24B1B59700055FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03474F4A24B1B61800055FC2 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		03474F5524B1B9DD00055FC2 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
+		03474F5724B20E7D00055FC2 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		03474F5924B21E3D00055FC2 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		03474F5B24B2F42D00055FC2 /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		03474F5D24B304C600055FC2 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		038EFD6924B38B5500DCA15B /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		038EFD6A24B38B5500DCA15B /* UserDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailTableViewCell.xib; sourceTree = "<group>"; };
+		0A51A7CCB9126D20F151CA20 /* Pods-JET2DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoApp.release.xcconfig"; path = "Target Support Files/Pods-JET2DemoApp/Pods-JET2DemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		25EB07FA265AD0FE33B6DF25 /* Pods-JET2DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoApp.debug.xcconfig"; path = "Target Support Files/Pods-JET2DemoApp/Pods-JET2DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD9C2358087D42B7EC79D0F /* Pods_JET2DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JET2DemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68566F5D3A3965FCB0054006 /* Pods_JET2DemoApp_JET2DemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JET2DemoApp_JET2DemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A180235B62FD2E52F68210C /* Pods_JET2DemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JET2DemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A97874946CCD0AA269F03 /* Pods-JET2DemoApp-JET2DemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoApp-JET2DemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-JET2DemoApp-JET2DemoAppUITests/Pods-JET2DemoApp-JET2DemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDB399783ACDFBACC5D0ED21 /* Pods-JET2DemoApp-JET2DemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoApp-JET2DemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-JET2DemoApp-JET2DemoAppUITests/Pods-JET2DemoApp-JET2DemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEA42D3B1E9D6967B9A750EA /* Pods-JET2DemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-JET2DemoAppTests/Pods-JET2DemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB9C13F54742DDAAC334EED6 /* Pods-JET2DemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JET2DemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-JET2DemoAppTests/Pods-JET2DemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03474F0F24B1B59400055FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20013C7067CD184C04C5253B /* Pods_JET2DemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F2A24B1B59700055FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1CE4628CF64ACB49697630 /* Pods_JET2DemoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F3524B1B59700055FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C86163D134F721DE4A3DA3D /* Pods_JET2DemoApp_JET2DemoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303D59F24B5912B003BD075 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03474F1B24B1B59400055FC2 /* UserListViewController.swift */,
+				0303D59B24B47217003BD075 /* UserDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0303D5A024B5913D003BD075 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03474F1924B1B59400055FC2 /* ArticlesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0303D5A124B59150003BD075 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				03474F1D24B1B59400055FC2 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		03474F0924B1B59400055FC2 = {
+			isa = PBXGroup;
+			children = (
+				03474F1424B1B59400055FC2 /* JET2DemoApp */,
+				03474F3024B1B59700055FC2 /* JET2DemoAppTests */,
+				03474F3B24B1B59700055FC2 /* JET2DemoAppUITests */,
+				03474F1324B1B59400055FC2 /* Products */,
+				D3F1BFD95EC7C0A9A5655BEB /* Pods */,
+				961F3C1378E2F5175D1F239B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03474F1324B1B59400055FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03474F1224B1B59400055FC2 /* JET2DemoApp.app */,
+				03474F2D24B1B59700055FC2 /* JET2DemoAppTests.xctest */,
+				03474F3824B1B59700055FC2 /* JET2DemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03474F1424B1B59400055FC2 /* JET2DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				03474F1524B1B59400055FC2 /* AppDelegate.swift */,
+				03474F1724B1B59400055FC2 /* SceneDelegate.swift */,
+				03474F5424B1B99E00055FC2 /* Common-Helper */,
+				03474F4C24B1B72400055FC2 /* ARTICLES */,
+				03474F5024B1B97900055FC2 /* USERS */,
+				0303D5A124B59150003BD075 /* StoryBoards */,
+				03474F2324B1B59700055FC2 /* Assets.xcassets */,
+				03474F2524B1B59700055FC2 /* LaunchScreen.storyboard */,
+				03474F2824B1B59700055FC2 /* Info.plist */,
+				03474F2024B1B59400055FC2 /* JET2DemoApp.xcdatamodeld */,
+			);
+			path = JET2DemoApp;
+			sourceTree = "<group>";
+		};
+		03474F3024B1B59700055FC2 /* JET2DemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03474F3124B1B59700055FC2 /* JET2DemoAppTests.swift */,
+				03474F3324B1B59700055FC2 /* Info.plist */,
+			);
+			path = JET2DemoAppTests;
+			sourceTree = "<group>";
+		};
+		03474F3B24B1B59700055FC2 /* JET2DemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03474F3C24B1B59700055FC2 /* JET2DemoAppUITests.swift */,
+				03474F3E24B1B59700055FC2 /* Info.plist */,
+			);
+			path = JET2DemoAppUITests;
+			sourceTree = "<group>";
+		};
+		03474F4C24B1B72400055FC2 /* ARTICLES */ = {
+			isa = PBXGroup;
+			children = (
+				03474F4F24B1B74200055FC2 /* ModelView */,
+				03474F4E24B1B73A00055FC2 /* Model */,
+				03474F4D24B1B73200055FC2 /* View */,
+			);
+			path = ARTICLES;
+			sourceTree = "<group>";
+		};
+		03474F4D24B1B73200055FC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0303D5A024B5913D003BD075 /* Controllers */,
+				0303D59724B45A91003BD075 /* ArticlesTableViewCell.swift */,
+				0303D59824B45A91003BD075 /* ArticlesTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03474F4E24B1B73A00055FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03474F5B24B2F42D00055FC2 /* ArticlesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03474F4F24B1B74200055FC2 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				03474F5D24B304C600055FC2 /* ArticlesViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		03474F5024B1B97900055FC2 /* USERS */ = {
+			isa = PBXGroup;
+			children = (
+				03474F5124B1B97900055FC2 /* ModelView */,
+				03474F5224B1B97900055FC2 /* Model */,
+				03474F5324B1B97900055FC2 /* View */,
+			);
+			path = USERS;
+			sourceTree = "<group>";
+		};
+		03474F5124B1B97900055FC2 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				03474F5924B21E3D00055FC2 /* UsersViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		03474F5224B1B97900055FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03474F5724B20E7D00055FC2 /* UsersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03474F5324B1B97900055FC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0303D59F24B5912B003BD075 /* Controllers */,
+				038EFD6924B38B5500DCA15B /* UserDetailTableViewCell.swift */,
+				038EFD6A24B38B5500DCA15B /* UserDetailTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03474F5424B1B99E00055FC2 /* Common-Helper */ = {
+			isa = PBXGroup;
+			children = (
+				03474F4A24B1B61800055FC2 /* AppConstant.swift */,
+				03474F5524B1B9DD00055FC2 /* ServiceRouter.swift */,
+				0303D59D24B58E82003BD075 /* Common+Extensions.swift */,
+			);
+			path = "Common-Helper";
+			sourceTree = "<group>";
+		};
+		961F3C1378E2F5175D1F239B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD9C2358087D42B7EC79D0F /* Pods_JET2DemoApp.framework */,
+				68566F5D3A3965FCB0054006 /* Pods_JET2DemoApp_JET2DemoAppUITests.framework */,
+				9A180235B62FD2E52F68210C /* Pods_JET2DemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F1BFD95EC7C0A9A5655BEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25EB07FA265AD0FE33B6DF25 /* Pods-JET2DemoApp.debug.xcconfig */,
+				0A51A7CCB9126D20F151CA20 /* Pods-JET2DemoApp.release.xcconfig */,
+				CDB399783ACDFBACC5D0ED21 /* Pods-JET2DemoApp-JET2DemoAppUITests.debug.xcconfig */,
+				9E0A97874946CCD0AA269F03 /* Pods-JET2DemoApp-JET2DemoAppUITests.release.xcconfig */,
+				EB9C13F54742DDAAC334EED6 /* Pods-JET2DemoAppTests.debug.xcconfig */,
+				DEA42D3B1E9D6967B9A750EA /* Pods-JET2DemoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03474F1124B1B59400055FC2 /* JET2DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03474F4124B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoApp" */;
+			buildPhases = (
+				8CE0BDC6FAB8B6FB85F64AA8 /* [CP] Check Pods Manifest.lock */,
+				03474F0E24B1B59400055FC2 /* Sources */,
+				03474F0F24B1B59400055FC2 /* Frameworks */,
+				03474F1024B1B59400055FC2 /* Resources */,
+				97357767A81AF9AB01F9918F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JET2DemoApp;
+			productName = JET2DemoApp;
+			productReference = 03474F1224B1B59400055FC2 /* JET2DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03474F2C24B1B59700055FC2 /* JET2DemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03474F4424B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoAppTests" */;
+			buildPhases = (
+				AA92BC26DD17FE6C4364BD90 /* [CP] Check Pods Manifest.lock */,
+				03474F2924B1B59700055FC2 /* Sources */,
+				03474F2A24B1B59700055FC2 /* Frameworks */,
+				03474F2B24B1B59700055FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03474F2F24B1B59700055FC2 /* PBXTargetDependency */,
+			);
+			name = JET2DemoAppTests;
+			productName = JET2DemoAppTests;
+			productReference = 03474F2D24B1B59700055FC2 /* JET2DemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03474F3724B1B59700055FC2 /* JET2DemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03474F4724B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoAppUITests" */;
+			buildPhases = (
+				98E122FFECF2A3A3074F2B7F /* [CP] Check Pods Manifest.lock */,
+				03474F3424B1B59700055FC2 /* Sources */,
+				03474F3524B1B59700055FC2 /* Frameworks */,
+				03474F3624B1B59700055FC2 /* Resources */,
+				056542AF446E4074092F0949 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03474F3A24B1B59700055FC2 /* PBXTargetDependency */,
+			);
+			name = JET2DemoAppUITests;
+			productName = JET2DemoAppUITests;
+			productReference = 03474F3824B1B59700055FC2 /* JET2DemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03474F0A24B1B59400055FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sachin;
+				TargetAttributes = {
+					03474F1124B1B59400055FC2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					03474F2C24B1B59700055FC2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03474F1124B1B59400055FC2;
+					};
+					03474F3724B1B59700055FC2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03474F1124B1B59400055FC2;
+					};
+				};
+			};
+			buildConfigurationList = 03474F0D24B1B59400055FC2 /* Build configuration list for PBXProject "JET2DemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03474F0924B1B59400055FC2;
+			productRefGroup = 03474F1324B1B59400055FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03474F1124B1B59400055FC2 /* JET2DemoApp */,
+				03474F2C24B1B59700055FC2 /* JET2DemoAppTests */,
+				03474F3724B1B59700055FC2 /* JET2DemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03474F1024B1B59400055FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0303D59A24B45A91003BD075 /* ArticlesTableViewCell.xib in Resources */,
+				03474F2724B1B59700055FC2 /* LaunchScreen.storyboard in Resources */,
+				038EFD6C24B38B5500DCA15B /* UserDetailTableViewCell.xib in Resources */,
+				03474F2424B1B59700055FC2 /* Assets.xcassets in Resources */,
+				03474F1F24B1B59400055FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F2B24B1B59700055FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F3624B1B59700055FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056542AF446E4074092F0949 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp-JET2DemoAppUITests/Pods-JET2DemoApp-JET2DemoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp-JET2DemoAppUITests/Pods-JET2DemoApp-JET2DemoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp-JET2DemoAppUITests/Pods-JET2DemoApp-JET2DemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE0BDC6FAB8B6FB85F64AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JET2DemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97357767A81AF9AB01F9918F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp/Pods-JET2DemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp/Pods-JET2DemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JET2DemoApp/Pods-JET2DemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E122FFECF2A3A3074F2B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JET2DemoApp-JET2DemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA92BC26DD17FE6C4364BD90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JET2DemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03474F0E24B1B59400055FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0303D59C24B47217003BD075 /* UserDetailViewController.swift in Sources */,
+				038EFD6824B37F8100DCA15B /* ServiceRouter.swift in Sources */,
+				0303D59624B398FF003BD075 /* UsersViewModel.swift in Sources */,
+				038EFD6E24B391E500DCA15B /* UserDetailTableViewCell.swift in Sources */,
+				03474F1A24B1B59400055FC2 /* ArticlesViewController.swift in Sources */,
+				03474F5F24B306FD00055FC2 /* ArticlesViewModel.swift in Sources */,
+				03474F2224B1B59400055FC2 /* JET2DemoApp.xcdatamodeld in Sources */,
+				038EFD6D24B391E100DCA15B /* UserListViewController.swift in Sources */,
+				03474F4B24B1B61800055FC2 /* AppConstant.swift in Sources */,
+				03474F1624B1B59400055FC2 /* AppDelegate.swift in Sources */,
+				03474F5824B20E7D00055FC2 /* UsersModel.swift in Sources */,
+				03474F5C24B2F42D00055FC2 /* ArticlesModel.swift in Sources */,
+				03474F1824B1B59400055FC2 /* SceneDelegate.swift in Sources */,
+				0303D59E24B58E82003BD075 /* Common+Extensions.swift in Sources */,
+				0303D59924B45A91003BD075 /* ArticlesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F2924B1B59700055FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03474F3224B1B59700055FC2 /* JET2DemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03474F3424B1B59700055FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03474F3D24B1B59700055FC2 /* JET2DemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03474F2F24B1B59700055FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03474F1124B1B59400055FC2 /* JET2DemoApp */;
+			targetProxy = 03474F2E24B1B59700055FC2 /* PBXContainerItemProxy */;
+		};
+		03474F3A24B1B59700055FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03474F1124B1B59400055FC2 /* JET2DemoApp */;
+			targetProxy = 03474F3924B1B59700055FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03474F1D24B1B59400055FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03474F1E24B1B59400055FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03474F2524B1B59700055FC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03474F2624B1B59700055FC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03474F3F24B1B59700055FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03474F4024B1B59700055FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03474F4224B1B59700055FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25EB07FA265AD0FE33B6DF25 /* Pods-JET2DemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03474F4324B1B59700055FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A51A7CCB9126D20F151CA20 /* Pods-JET2DemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03474F4524B1B59700055FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9C13F54742DDAAC334EED6 /* Pods-JET2DemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JET2DemoApp.app/JET2DemoApp";
+			};
+			name = Debug;
+		};
+		03474F4624B1B59700055FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA42D3B1E9D6967B9A750EA /* Pods-JET2DemoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JET2DemoApp.app/JET2DemoApp";
+			};
+			name = Release;
+		};
+		03474F4824B1B59700055FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB399783ACDFBACC5D0ED21 /* Pods-JET2DemoApp-JET2DemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JET2DemoApp;
+			};
+			name = Debug;
+		};
+		03474F4924B1B59700055FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0A97874946CCD0AA269F03 /* Pods-JET2DemoApp-JET2DemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2DemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JET2DemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JET2DemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03474F0D24B1B59400055FC2 /* Build configuration list for PBXProject "JET2DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03474F3F24B1B59700055FC2 /* Debug */,
+				03474F4024B1B59700055FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03474F4124B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03474F4224B1B59700055FC2 /* Debug */,
+				03474F4324B1B59700055FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03474F4424B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03474F4524B1B59700055FC2 /* Debug */,
+				03474F4624B1B59700055FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03474F4724B1B59700055FC2 /* Build configuration list for PBXNativeTarget "JET2DemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03474F4824B1B59700055FC2 /* Debug */,
+				03474F4924B1B59700055FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03474F2024B1B59400055FC2 /* JET2DemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03474F2124B1B59400055FC2 /* JET2DemoApp.xcdatamodel */,
+			);
+			currentVersion = 03474F2124B1B59400055FC2 /* JET2DemoApp.xcdatamodel */;
+			path = JET2DemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03474F0A24B1B59400055FC2 /* Project object */;
+}
